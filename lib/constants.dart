@@ -11,6 +11,23 @@ const kLabelTextStyle = TextStyle(
 );
 
 const kHugeTextStyle = TextStyle(
-  fontSize: 50,
-  fontWeight: FontWeight.w900,
+  fontSize: 25.0,
+  fontWeight: FontWeight.bold,
+);
+
+const kTitleTextStyle = TextStyle(
+  fontSize: 50.0,
+  fontWeight: FontWeight.bold,
+);
+
+const kresultTextStyle = TextStyle(
+  color: Color(0xFF24D876),
+  fontSize: 22.0,
+  fontWeight: FontWeight.bold,
+);
+
+const kbmiTextStyle = TextStyle(
+  //color: Color(0xFF24D876),
+  fontSize: 100.0,
+  fontWeight: FontWeight.bold,
 );
